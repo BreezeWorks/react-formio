@@ -1,6 +1,6 @@
 {
-  "name": "react-formio",
-  "version": "2.1.0-beta.3",
+  "name": "@breezeworks/react-formio",
+  "version": "2.1.0-beta.3-bw2",
   "description": "React renderer for form.io forms.",
   "main": "lib/index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/formio/react-formio#readme",
   "dependencies": {
     "babel-polyfill": "^6.23.0",
-    "formiojs": "^3.0.0-alpha.8",
+    "@breezeworks/formiojs": "3.0.0-alpha.18-bw1",
     "prop-types": "^15.5.7",
     "react-bootstrap": "^0.31.0",
     "recompose": "^0.23.5",
@@ -64,5 +64,9 @@
   "peerDependencies": {
     "react": "^15.3.0 || ^16.0.0",
     "react-dom": "^15.3.0 || ^16.0.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
