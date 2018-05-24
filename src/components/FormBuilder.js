@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import FormBuilder from 'formiojs/FormBuilder';
+import FormBuilder from '@breezeworks/formiojs/FormBuilder';
 
 export default class extends Component {
   static defaultProps = {
