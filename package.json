@@ -1,6 +1,6 @@
 {
   "name": "@breezeworks/react-formio",
-  "version": "2.1.0-beta.3-bw3",
+  "version": "2.1.0-bw1",
   "description": "React renderer for form.io forms.",
   "main": "lib/index.js",
   "scripts": {
